@@ -49,7 +49,7 @@ jobs:
       # Setup node environment
       - uses: actions/setup-node@v1
         with:
-          node-version: 15
+          node-version: 22
           registry-url: https://registry.npmjs.org/
 
       # Bump version to the next prerelease (patch) with rc suffix
